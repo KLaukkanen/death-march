@@ -1,0 +1,48 @@
+{
+  "name": "death-march",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KLaukkanen/death-march.git"
+  },
+  "author": "Kalle Laukkanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KLaukkanen/death-march/issues"
+  },
+  "homepage": "https://github.com/KLaukkanen/death-march#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@storybook/addon-actions": "^5.0.5",
+    "@storybook/addon-info": "^5.0.5",
+    "@storybook/addon-links": "^5.0.5",
+    "@storybook/addons": "^5.0.5",
+    "@storybook/react": "^5.0.5",
+    "@types/storybook__react": "^4.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "fuse-box": "^3.7.1",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "terser": "^3.17.0",
+    "typescript": "^3.3.4000",
+    "uglify-js": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/prop-types": "^15.7.0",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/styled-components": "^4.1.12",
+    "jest": "^24.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^3.1.6"
+  }
+}
